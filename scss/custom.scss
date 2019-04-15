@@ -35,11 +35,14 @@ section {
 }
 
 #timeline {
+  min-height: 100vh;
+}
+
+.program-team {
   background: url("../img/programs/slider-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 100vh;
 }
 
 #scroll-to-top {
@@ -133,6 +136,8 @@ header {
 
 #program {
   padding: 120px 0;
+  @extend .program-team;
+ 
   #timeline {
     .item {
       img {
@@ -221,6 +226,9 @@ header {
 #team {
   padding-top: 120px;
   padding-bottom: 120px;
+  @extend .program-team;
+  margin-top: -120px;
+
   #timeline {
     .item {
       img {

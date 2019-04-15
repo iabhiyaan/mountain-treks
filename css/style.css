@@ -7636,11 +7636,13 @@ section h3 {
   padding-top: 60px; }
 
 #timeline {
+  min-height: 100vh; }
+
+.program-team, #program, #team {
   background: url("../img/programs/slider-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh; }
+  background-attachment: fixed; }
 
 #scroll-to-top {
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -7772,7 +7774,8 @@ header {
 
 #team {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  margin-top: -120px; }
   #team #timeline .item img {
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
